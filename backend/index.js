@@ -34,6 +34,7 @@ conn.connect((err) =>{
     console.log ('Mysql Connected...');
 });
 
+//route for signup page
 app.post('/sign', (req, res) => {
     let email = req.body.email;
     
